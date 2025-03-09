@@ -35,6 +35,14 @@ def dense(a_in,W,b,g):
         a_out[j] = g(z)
     return a_out
 
+#更高效  -->矩阵乘法matmal等价于上面的循环  输入两个矩阵  
+def effdense(A_in,W,B):
+    Z = np.matmul(A_in,W)+B
+    A_out = g(z)
+    return A_out ##sigmoid
+
+
+
 
 def sequential(x):
     a1 = dense(x,W1,b1)
