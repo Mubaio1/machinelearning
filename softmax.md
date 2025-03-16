@@ -50,7 +50,7 @@ now:model.compile(loss=SparseCrossEntropy(from_logits=True))
 ```
 model:
 model = Sequential([
-    Dense(units=25,activation='sigmoid),
+    Dense(units=25,activation='sigmoid‘),
     Dense(units=15,activation='sigmoid'),
     Dense(units=1,activation='linear'),  
     此处的softmax改为linear,units改为1.这里是二分类最终用sigmoid转化

@@ -10,5 +10,5 @@ model = Sequential([
 
 
 
-model.compile(loss=SparseCategoricalCrossentropy())  #分类别的 稀疏分类交叉熵
+model.compile(loss=SparseCategoricalCrossentropy())  #使用稀疏分类交叉熵损失函数
 model.fit(X,Y,epochs=100)
