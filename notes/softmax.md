@@ -1,7 +1,7 @@
 # softmax函数  本质用于多类问题
 [toc]
 ## softmax计算:
-<img src="src\softmax.jpg"> 
+<img src="../src/softmax.jpg"> 
 
 多个类的概率总和为1   softmax是逻辑回归的广义形式
 对于sigmoid函数   上下同乘e^x次方  即为二元的一般逻辑回归形式
@@ -10,7 +10,7 @@
 
 ## 指定softmax代价函数：
 
-<img src="src\softmaxloss.jpg"> 
+<img src="../src/softmaxloss.jpg"> 
 
  ### loss分段时，对其进行分段梯度下降，即softmax中的分段
 
